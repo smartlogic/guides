@@ -1,0 +1,34 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/schema.rb'
+    - 'spec/fixtures/**/*'
+  TargetRubyVersion: 2.3
+
+AbcSize:
+  Exclude:
+    - db/migrate/*
+
+Documentation:
+  Enabled: false
+
+Metrics/ClassLength:
+  Exclude:
+    - db/migrate/*
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - config/application.rb
+    - config/environments/*
+    - config/initializers/*
+    - db/migrate/*
+
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*
+
+Rails:
+  Enabled: true
