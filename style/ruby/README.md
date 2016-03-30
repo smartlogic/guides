@@ -32,5 +32,5 @@ We defer to [bbatsov's Ruby Style Guide](bbatsov/ruby-style-guide) with the foll
   def no_op; end
   ```
 
-* Limit lines to 90 or 100 characters.
+* Limit lines to 100 characters.
 <sup>[[contrasting link](bbatsov/ruby-style-guide#80-character-limits)]</sup>
